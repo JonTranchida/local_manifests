@@ -2,8 +2,6 @@
 <manifest>
   <remote name="github" fetch="https://github.com" />/
 
-  <project name="followmsi/android_vendor" path="vendor" remote="github" revision="flo-deb-aosp-oreo" />
-
   <project name="JonTranchida/android_device_asus_flo" path="device/asus/flo" remote="github" revision="aosip-pie" />
 
   <remove-project name="platform/build" />
